@@ -26,6 +26,9 @@ The directory structure is as follows:
 
     Example: `index.html`
 
+## Project URL
+https://roadmap.sh/projects/basic-html-website
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
