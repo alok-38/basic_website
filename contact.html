@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Basic HTML Website | Alokananda Y</title>
+	<meta name="description" content="Goal of this project is to teach myself how to structure a website using HTML" />
+	<link rel="canonical" href="https://www.yoursite.com/your-page-url" />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:title" content="Basic HTML Website | Alokananda Y" />
+	<meta property="og:description"
+		content="Goal of this project is to teach myself how to structure a website using HTML" />
+	<meta property="og:url" content="https://www.yoursite.com/your-page-url" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:site_name" content="Basic HTML Website" />
+</head>
+
+<body>
+	<header>
+		<nav role="navigation">
+			<div class="logo"><a href="/">AY</a></div>
+			<div class="links">
+				<ul role="list">
+					<li><a href="/">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="articles.html">Articles</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h1>Welcome to My Website</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Contact Me</h2>
+			<form action="" method="POST" class="contact" aria-labelledby="contact-form">
+				<fieldset>
+					<legend id="contact-form">Contact Form</legend>
+
+					<!-- Name Input -->
+					<div>
+						<label for="name">Enter your name: </label>
+						<input type="text" name="name" id="name" required aria-required="true"
+							placeholder="Your full name" />
+					</div>
+
+					<!-- Email Input -->
+					<div>
+						<label for="email">Enter your email: </label>
+						<input type="email" name="email" id="email" required aria-required="true"
+							placeholder="Your email address" />
+					</div>
+
+					<!-- Message Textarea -->
+					<div>
+						<label for="message">Leave a message:</label>
+						<textarea name="message" id="message" required aria-required="true"
+							placeholder="Type your message here"></textarea>
+					</div>
+
+					<!-- Submit Button -->
+					<div>
+						<input type="submit" value="Send Message" />
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2024 Alokananda Y. All rights reserved.</p>
+	</footer>
+</body>
+
+</html>
